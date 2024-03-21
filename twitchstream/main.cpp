@@ -13,13 +13,13 @@
 using namespace std;
 
 std::string s1;
-std::string s2 = ("livestreamer --http-header Client-ID=jzkbprff40iqj646a697cyrvl0zt2m6 twitch.tv/");
+std::string s2 = ("streamlink twitch.tv/");
 std::string s3 = (" audio_only");
 int confirmStart;
 
 int main()
 {
-	cout << "This program requires Livestreamer and VLC to be installed." << endl << endl << "Please enter the name of the Twitch stream you would like to listen to." << endl << endl;
+	cout << "This program requires Streamlink and VLC to be installed." << endl << endl << "Please enter the name of the Twitch stream you would like to listen to." << endl << endl;
 
 	cin >> s1;
 
